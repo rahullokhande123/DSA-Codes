@@ -2,9 +2,9 @@
 using namespace std;
 void selection(int a[],int n){
 	int index,temp;
-	for(int i=0;i<n-1;i++){
+	for(int i=0;i<n-1;i++){  // ye index pr rakhi value provide kr raha h
 		index=i;
-		for(int j=i+1;j<n;j++){
+		for(int j=i+1;j<n;j++){  // ye index no. provide kr raha h
 			if(a[index]>a[j]){
 				index=j;
 			}
