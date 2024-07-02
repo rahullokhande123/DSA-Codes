@@ -5,7 +5,7 @@ using namespace std;
 		for(int i=1;i<n;i++){
 			key=a[i]; // key 2
 			j=i-1;    // j=15
-			while(j>=0 && a[j]>key){
+			while(j>=0 && a[j]> key){
 				a[j+1]=a[j];
 				j--; // pichle index pe jane ke liye
 			}
