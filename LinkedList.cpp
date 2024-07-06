@@ -68,21 +68,10 @@ class LinkedList{
 			}
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 //      Element Inset front
 
-        void insert_front(int d){
+        void insert_start(int d){
         	if(head==NULL){
 				head=new Node(d);
 			}
@@ -93,20 +82,7 @@ class LinkedList{
 			}
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//      Element Delete in front		
 };
 int main(){
 	LinkedList obj;
@@ -128,7 +104,7 @@ int main(){
 //	obj.delete_end(); // delete 89
 //	obj.delete_end(); // msg-> no data for delete
 //	obj.delete_end(); // msg-> no data for delete
-	obj.insert_first(12);
+	obj.insert_start(12);
 	obj.traversal();
 
 }
