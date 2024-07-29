@@ -1,6 +1,6 @@
-#include <iostream>
-using namespace std;
-int main(){
+// #include <iostream>
+// using namespace std;
+// int main(){
 	//==================== ~Wild Pointer~ =========================
 //	int a=90, b=80;
 //	int *p; // Wrong way of diclair pointer  ---> This type wild pointer.
@@ -35,20 +35,20 @@ int main(){
 
  // ==================== ~Double Pointer~ ======================
  
-  int a=90;
-  int *p =&a;
-  int **p1= &p;
+//   int a=90;
+//   int *p =&a;
+//   int **p1= &p;
  
-     cout<<a<<endl;
-     cout<<*p<<endl;    // dereference single
-     cout<<**p1<<endl;  // dereference double (double pointer me hm ** strack symbol ka use krte h)
+//      cout<<a<<endl;
+//      cout<<*p<<endl;    // dereference single
+//      cout<<**p1<<endl;  // dereference double (double pointer me hm ** strack symbol ka use krte h)
      
-     **p1=900;
+//      **p1=900;
      
-     cout<<a<<endl;
-     cout<<p<<endl;   
-     cout<<p1<<endl;
-};
+//      cout<<a<<endl;
+//      cout<<p<<endl;   
+//      cout<<p1<<endl;
+// };
 
 
 
