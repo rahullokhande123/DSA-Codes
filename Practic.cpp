@@ -22,7 +22,7 @@ class LinkedList{
 			head=NULL;
 		}
 		
-//		Element Traversal ===================================
+//		Element Traversal ================
 
 		void traversal(){
 			if(head==NULL){
@@ -36,7 +36,7 @@ class LinkedList{
 			}	
 		}
 		
-//		Element Delete ======================================
+//		Element Delete ====================
 		
 		void delete_end(){
 			if(head==NULL){
@@ -55,7 +55,7 @@ class LinkedList{
 				temp->next=NULL;
 		}
 		
-//		Element Insert ======================================
+//		Element Insert =====================
 				
 		void insert_end(int d){
 			if(head==NULL){
@@ -84,7 +84,7 @@ class LinkedList{
 		}
 			
 				
-//      Element Inset front
+//      Element Inset front=================
 
         void insert_start(int d){
         	if(head==NULL){
@@ -97,7 +97,7 @@ class LinkedList{
 			}
 			
 		}
-//      Element Delete in front		
+//      Element Delete in front	============	
 };
 int main(){
 	LinkedList obj;
