@@ -26,12 +26,4 @@ int main(){
 	cout<<name<<" "<<second_name<<endl;
 }
 
-//#include <iostream>
-//using namespace std;
-//int main(){
-//	string name="Himanshi";
-//	string &second_name=name;
-//	cout<<name<<" "<<second_name<<endl;
-//	second_name="Manisha_Khakre";
-//	cout<<name<<" "<<second_name<<endl;
-//}
+

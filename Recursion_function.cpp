@@ -1,7 +1,7 @@
 //=================== Direct Recursion ===================
 // WAP to create a factorial program
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 //int fact(int n){
 //	if(n<0){
 //		cout<<"There is no factorial of nagative number";
@@ -52,6 +52,8 @@ using namespace std;
 //}
 
 //=============== Head Recursion ================
+#include <iostream>
+using namespace std;
 void table(int n, int current){
 	if(current>10){
 		return;
