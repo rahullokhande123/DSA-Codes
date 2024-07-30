@@ -103,14 +103,6 @@ int main(){
 	LinkedList obj;
 		obj.insert_random(800,3);
 	obj.insert_end(89);
-	
-	
-	
-	
-	
-	
-	
-	
 	obj.insert_end(78);
 	obj.insert_end(54);
 	obj.insert_end(9);
